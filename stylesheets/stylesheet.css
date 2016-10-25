@@ -89,9 +89,8 @@ p.sub-titulo{
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  border-bottom: 4px solid #000;
-  transition-duration: 0.3s;
-  border-bottom-width: 0px;
+  border-bottom: 0px solid rgb(31, 31, 31);
+  transition-duration: 0.5s;
   height: 94px;
   float: left;
   color: rgba(255, 255, 255, 0.23);
@@ -105,4 +104,69 @@ p.sub-titulo{
   border-bottom-width: 100%;
   float: left;
   height: 90px;
+  color: #F1F1F1;
+}
+.box-title{
+  color: #F1F1F1;
+}
+.skills{
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+.bar-skills{
+  border-radius: 5px;
+  border: 1px solid #393939;
+  padding: 2px;
+  height: 40px;
+  margin-bottom: 15px;
+  background: rgba(36, 36, 36, 0.54);
+}
+.value-bar{
+  line-height: 32px;
+  width: 25%;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  background: #00bfff;
+  height: 32px;
+  margin-top: 1.5px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.linux{
+  width: 80%;
+  background: #772953;
+  color: #FFF;
+}
+.windows{
+  width: 90%;
+  background: #00bfff;
+}
+.osx{
+  width: 56%;
+  background: #F1F1F1;
+}
+.html5{
+  width: 90%;
+  background: #E95420;
+  color: #FFF;
+}
+.css3{
+  width: 70%;
+  background: #0272BA;
+  color: #FFF;
+}
+.js{
+  width: 70%;
+  background: #F1BF26;
+}
+.ps{
+  width: 65%;
+  background: #1B1833;
+  color: #FFF;
+}
+.php{
+  width: 85%;
+  background: #617CBE;
+
 }
