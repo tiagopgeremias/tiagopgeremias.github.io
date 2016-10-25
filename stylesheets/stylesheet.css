@@ -65,6 +65,9 @@ p.sub-titulo{
   background-image: url('../images/background_rodape.png');
   min-height: 500px;
 }
+.box-skills{
+  background-image: url('../images/background_rodape.png');
+}
 .show-photo{
   text-align: center;
   margin-top: 50px;
@@ -108,6 +111,7 @@ p.sub-titulo{
 }
 .box-title{
   color: #F1F1F1;
+  font-family: 'Lobster', cursive;
 }
 .skills{
   padding-top: 25px;
@@ -133,6 +137,21 @@ p.sub-titulo{
   font-weight: bold;
   vertical-align: middle;
 }
+.more-info{
+  padding-bottom: 60px;
+}
+.icon-more-info{
+  text-align: right;
+  font-size: 130px;
+  color: #c1c1c1;
+}
+.text-more-info{
+  text-align: left;
+  color: #F1F1F1;
+  font-size: 14px;
+}
+
+/* skill bars  */
 .linux{
   width: 80%;
   background: #772953;
