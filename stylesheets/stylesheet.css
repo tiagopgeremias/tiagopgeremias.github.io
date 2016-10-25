@@ -60,7 +60,11 @@ p.sub-titulo{
   text-shadow: 8px 1px 1px #000;
   text-align: center;
 }
-
+.title-works{
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+  color: rgba(255, 254, 254, 0.38);
+}
 .box-one{
   background-image: url('../images/background_rodape.png');
   min-height: 500px;
