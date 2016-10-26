@@ -39,12 +39,20 @@ body {
 
 
 /*-------------------------------------------*/
-
+header{
+  padding-bottom: 20px;
+}
 h1.titulo{
   font-family: 'Lobster', cursive;
   color: #CCC;
   text-shadow: 1px 1px 8px #000;
   font-size: 40px;
+}
+.right-title{
+  font-family: 'Lobster', cursive;
+  color: #666;
+  text-shadow: 1px 1px 8px #000;
+  font-size: 30px;
 }
 p.sub-titulo{
   font-family: 'Lobster', cursive;
@@ -63,7 +71,8 @@ p.sub-titulo{
 .title-works{
   font-family: 'Lobster', cursive;
   font-size: 60px;
-  color: rgba(255, 254, 254, 0.38);
+  color: rgb(0, 0, 0);
+  text-shadow: 0px 0px 1px #FFF;
 }
 .box-image{
   text-align: center;
@@ -90,6 +99,8 @@ p.sub-titulo{
 .contact-social{
   list-style: none;
   text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .contact-social > li{
   display: inline-block;
@@ -115,6 +126,7 @@ p.sub-titulo{
   float: left;
   height: 90px;
   color: #F1F1F1;
+  text-shadow: 0px 0px 26px rgba(255, 255, 255, 0.67);
 }
 .box-title{
   color: #F1F1F1;
@@ -157,6 +169,21 @@ p.sub-titulo{
   color: #F1F1F1;
   font-size: 14px;
 }
+
+.divisor{
+  margin-top: 46px;
+  border-color: rgba(193, 193, 193, 0.27);
+  border-width: 6px;
+  box-shadow: 1px 10px 8px #000;
+}
+.image-effect{
+  transition-duration: 0.5s;
+}
+.image-effect:hover{
+  -webkit-filter: brightness(30%); /* Safari 6.0 - 9.0 */
+  filter: brightness(30%);
+}
+
 
 /* skill bars  */
 .linux{

@@ -5,17 +5,26 @@
     <title>Tiagopgeremias.GitHub.io by tiagopgeremias</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
 
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="/js/excanvas/excanvas.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="js/spinners/spinners.min.js"></script>
+    <script type="text/javascript" src="js/lightview/lightview.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/lightview/lightview.css"/>
+
+
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     
   </head>
@@ -27,16 +36,12 @@
         </div>
         <div class="col-md-8">
           <div class="pull-right">
-            <ul>
-              <li>item</li>
-              <li>item</li>
-              <li>item</li>
-              <li>item</li>
-            </ul>
+            
           </div>
         </div>
       </header>
       <article>
+
           <div class="row box-one">
             <div class="container">
               <div class="col-md-12 show-photo">
@@ -47,11 +52,11 @@
               </div>
               <div class="col-md-12">
                 <ul class="contact-social">
-                  <li><a href="mailto:tiagopgeremias@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-                  <li><a href="intent://send/5181746203#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-                  <li><a href="https://br.linkedin.com/in/tiago-geremias-194a2a38" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                  <li><a href="skype:tiago.geremias"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                  <li><a href="https://github.com/tiagopgeremias" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+                  <li><a data-toggle="tooltip" data-placement="top" title="E-mail" href="mailto:tiagopgeremias@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                  <li><a data-toggle="tooltip" data-placement="top" title="Whatsapp" href="intent://send/5181746203#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                  <li><a data-toggle="tooltip" data-placement="top" title="LinkedIn" href="https://br.linkedin.com/in/tiago-geremias-194a2a38" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                  <li><a data-toggle="tooltip" data-placement="top" title="Skype" href="skype:tiago.geremias"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                  <li data-toggle="tooltip" data-placement="top" title="GitHub"><a data-toggle="tooltip" data-placement="top" title="GitHub" href="https://github.com/tiagopgeremias" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -63,39 +68,93 @@
                 <h2 class="box-title">Gerenciamento de Petshop</h2>
                 <div class="row">
                   <div class="col-md-4 box-image">
-                    <img src="images/nwpet_1.png" width="340">
+                    <a href="images/nwpet_1.png" 
+                       class="lightview" 
+                       data-lightview-group="nwpet"
+                       data-lightview-group-options="controls: 'thumbnails'" 
+                       data-lightview-options="
+                         thumbnail: 'images/nwpet_1.png'
+                       "><img alt="Gerenciamento PetShop" class="image-effect" src="images/nwpet_1.png" width="340"></a>
                   </div>
                   <div class="col-md-4 box-image">
-                    <img src="images/nwpet_2.png" width="340">
+                    <a href="images/nwpet_2.png" 
+                       class="lightview" 
+                       data-lightview-group="nwpet"
+                       data-lightview-group-options="controls: 'thumbnails'" 
+                       data-lightview-options="
+                         thumbnail: 'images/nwpet_2.png'
+                       "><img alt="Gerenciamento PetShop" class="image-effect" src="images/nwpet_2.png" width="340"></a>
                   </div>
                   <div class="col-md-4 box-image">
-                    <img src="images/nwpet_3.png" width="340">
+                    <a href="images/nwpet_3.png" 
+                       class="lightview" 
+                       data-lightview-group="nwpet" 
+                       data-lightview-group-options="controls: 'thumbnails'" 
+                       data-lightview-options="
+                         thumbnail: 'images/nwpet_3.png'
+                       "><img alt="Gerenciamento PetShop" class="image-effect" src="images/nwpet_3.png" width="340"></a>
                   </div>
                 </div>
-                <hr>
+                <hr class="divisor">
                 <h2 class="box-title">Gerenciamento de Estacionamento</h2>
                 <div class="row">
                   <div class="col-md-4 box-image">
-                    <img src="images/nwparking_1.png" width="340">
+                    <a title="Gerencimento Estacionamento" href="images/nwparking_1.png" 
+                       class="lightview" 
+                       data-lightview-group="nwparking" 
+                       data-lightview-group-options="controls: 'thumbnails'" 
+                       data-lightview-options="
+                         thumbnail: 'images/nwparking_1.png'
+                    "><img alt="Gerenciamento Estacionamento" class="image-effect" src="images/nwparking_1.png" width="340"></a>
                   </div>
                   <div class="col-md-4 box-image">
-                    <img src="images/nwparking_2.png" width="340">
+                    <a title="Gerencimento Estacionamento" href="images/nwparking_2.png" 
+                       class="lightview" 
+                       data-lightview-group="nwparking" 
+                       data-lightview-group-options="controls: 'thumbnails'" 
+                       data-lightview-options="
+                         thumbnail: 'images/nwparking_2.png'
+                    "><img alt="Gerenciamento Estacionamento" class="image-effect" src="images/nwparking_2.png" width="340"></a>
                   </div>
                   <div class="col-md-4 box-image">
-                    <img src="images/nwparking_3.png" width="340">
+                    <a title="Gerencimento Estacionamento" href="images/nwparking_3.png" 
+                       class="lightview" 
+                       data-lightview-group="nwparking" 
+                       data-lightview-group-options="controls: 'thumbnails'" 
+                       data-lightview-options="
+                         thumbnail: 'images/nwparking_3.png'
+                    "><img alt="Gerenciamento Estacionamento" class="image-effect" src="images/nwparking_3.png" width="340"></a>
                   </div>
                 </div>
-                <hr>
+                <hr class="divisor">
                 <h2 class="box-title">Site de Brindes</h2>
                 <div class="row">
                   <div class="col-md-4 box-image">
-                    <img src="images/site_1.png" width="340">
+                    <a title="Site Atlantico Brindes" href="images/site_1.png" 
+                       class="lightview" 
+                       data-lightview-group="site" 
+                       data-lightview-group-options="controls: 'thumbnails'" 
+                       data-lightview-options="
+                         thumbnail: 'images/site_1.png'
+                    "><img alt="Site Atlantico Brindes" class="image-effect" src="images/site_1.png" width="340"></a>
                   </div>
                   <div class="col-md-4 box-image">
-                    <img src="images/site_2.png" width="340">
+                    <a title="Site Atlantico Brindes" href="images/site_2.png" 
+                       class="lightview" 
+                       data-lightview-group="site" 
+                       data-lightview-group-options="controls: 'thumbnails'" 
+                       data-lightview-options="
+                         thumbnail: 'images/site_2.png'
+                    "><img alt="Site Atlantico Brindes" class="image-effect" src="images/site_2.png" width="340"></a>
                   </div>
                   <div class="col-md-4 box-image">
-                    <img src="images/site_3.png" width="340">
+                    <a title="Site Atlantico Brindes" href="images/site_3.png" 
+                       class="lightview" 
+                       data-lightview-group="site" 
+                       data-lightview-group-options="controls: 'thumbnails'" 
+                       data-lightview-options="
+                         thumbnail: 'images/site_3.png'
+                    "><img alt="Site Atlantico Brindes" class="image-effect" src="images/site_3.png" width="340"></a>
                   </div>
                 </div>
               </div>
@@ -172,8 +231,13 @@
         </p>
       </div>
     </footer>
-    
+  <script src="js/bootstrap.min.js"></script>
   <script href="js/actions.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
+  </script>
   </body>
 </html>
 
