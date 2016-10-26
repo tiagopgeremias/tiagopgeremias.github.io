@@ -65,6 +65,9 @@ p.sub-titulo{
   font-size: 60px;
   color: rgba(255, 254, 254, 0.38);
 }
+.box-image{
+  text-align: center;
+}
 .box-one{
   background-image: url('../images/background_rodape.png');
   min-height: 500px;
